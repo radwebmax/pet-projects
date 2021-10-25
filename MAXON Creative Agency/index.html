@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Разработка всех типов сайтов 'под ключ', которые обрекают вас на успех и заставляют дрожать Ваших конкурентов"
+    />
+    <meta
+      name="keywords"
+      content="создание сайта, лендинг, разработка веб-сайта, веб студия, заказать сайт Киев"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAXON Creative Agency</title>
+    <link rel="shortcut icon" href="#" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
+    <script>
+      document.documentElement.className = "js";
+      var supportsCssVars = function () {
+        var e,
+          t = document.createElement("style");
+        return (
+          (t.innerHTML = "root: { --tmp-var: bold; }"),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports("font-weight", "var(--tmp-var)")
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          "Please view this site in a modern browser that supports CSS Variables."
+        );
+    </script>
+  </head>
+  <body>
+    <!--Setting cursor-->
+    <div class="cursor" id="js-cursor"></div>
+    <!--Copyright-->
+    <div class="copyright__defence bg-overlay_black">
+      <p class="fs-big text_center">
+        &copy All rights reserved. Powered by
+        <span class="span_red"> MAXON Creative Agency</span>
+      </p>
+    </div>
+    <!--Fixed links-->
+    <div class="leftbar scroll_smooth">
+      <a href="#about-us"><i class="leftbar__arrow_down arrow_down cursor-large"></i></a>
+      <a id="to-top" class="cursor-large">
+        <i class="leftbar__arrow_up arrow_up cursor-large"></i>
+      </a>
+    </div>
+    <div class="rightbar">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-telegram-plane"></a>
+      <a href="tel:+380508625044" class="fas fa-phone"></a>
+      <a href="mailto:radwebmax@gmail.com" class="far fa-envelope"></a>
+    </div>
+    <!--Header Area-->
+    <header>
+      <div class="logo">
+        <a href="#"
+          ><img
+            src="img/logo/main_logo_new.png"
+            alt="Логотип Maxon Creative Agency"
+        /></a>
+      </div>
+      <nav>
+        <a href="#">О Нас</a>
+        <a href="#">Портфолио</a>
+        <a href="#">Цены</a>
+        <a href="#">Контакты</a>
+        <a href="#">Шото еще</a>
+      </nav>
+    </header>
+    <!--Main content Area-->
+    <main>
+     <!-- <section class="front-slider">
+        <div class="front-slider__container">
+          <div class="slide-item">
+             <img src="img/swiper/06.jpg" alt="Тигр на чёрном фоне" />
+              <div class="slide-container">
+              <h1>
+                Мы создаём<br />
+                <span class="span_red" class="span_red">инновационные </span
+                >&<br /><span>креативные </span>сайты
+              </h1>
+              <a href="#" class="hover-border__effect mt-30">
+                <span>Заказать сайт</span>
+              </a>
+            </div>
+          </div>
+          <div class="slide-item">
+             <img
+              src="img/swiper/07.jpg"
+              alt="Сова на чёрном фоне"
+              loading="lazy"
+            />
+            <div class="slide-container">
+              <h1>
+                Мы предоставляем <br />
+                <span class="span_red">лучшие</span> digital<br />
+                услуги
+              </h1>
+              <a href="#" class="hover-border__effect mt-30">
+                <span>Заказать услугу</span>
+              </a>
+          </div>
+          <div class="slide-item">
+             <img
+              src="img/swiper/08.jpg"
+              alt="Лев на черном фоне"
+              loading="lazy"
+            />
+            <div class="slide-container">
+              <h1>
+                Лучшие <span class="span_red">решения</span> &<br />
+                Идеи для вашего<br />
+                бизнеса
+              </h1>
+              <a href="#" class="hover-border__effect mt-30">
+                <span>Связаться с нами</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>-->
+      <!--Main Swiper-->
+      <section class="swiper">
+        <div class="swiper-container">
+          <div class="swiper-handler">
+            <span class="handler_choosen">01</span>
+            <span>02</span>
+            <span>03</span>
+          </div>
+          <div class="slide show">
+            <img src="img/swiper/06.jpg" alt="Тигр на чёрном фоне" />
+            <div class="slide-container">
+              <h1>
+                Мы создаём<br />
+                <span class="span_red" class="span_red">инновационные </span
+                >&<br /><span>креативные </span>сайты
+              </h1>
+              <a href="#" class="hover-border__effect mt-30">
+                <span>Заказать сайт</span>
+              </a>
+            </div>
+          </div>
+          <div class="slide">
+            <img
+              src="img/swiper/07.jpg"
+              alt="Сова на чёрном фоне"
+              loading="lazy"
+            />
+            <div class="slide-container">
+              <h1>
+                Мы предоставляем <br />
+                <span class="span_red">лучшие</span> digital<br />
+                услуги
+              </h1>
+              <a href="#" class="hover-border__effect mt-30">
+                <span>Заказать услугу</span>
+              </a>
+            </div>
+          </div>
+          <div class="slide">
+            <img
+              src="img/swiper/08.jpg"
+              alt="Лев на черном фоне"
+              loading="lazy"
+            />
+            <div class="slide-container">
+              <h1>
+                Лучшие <span class="span_red">решения</span> &<br />
+                Идеи для вашего<br />
+                бизнеса
+              </h1>
+              <a href="#" class="hover-border__effect mt-30">
+                <span>Связаться с нами</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--About us section-->
+      <section class="about-us" id="about-us">
+        <div class="wrapper">
+          <div class="about-us_leftbar">
+            <h2>
+              Зачем заказывать<br />
+              сайт <span class="span_red">у нас ?</span>
+            </h2>
+          </div>
+          <div class="about-us_rightbar">
+            <p>
+              Решение создать сайт влечёт за собой массу других вопросов, таких
+              как :<br />создание фирменного стиля, дизайн логотипа,
+              копирайтинг, покупка<br />хостинга, вёрстка макета . Несомненно,
+              все эти манипуляции отнимают кучу времени, а желанию создавать
+              веб-сайт попросту канет в лету.<br />
+              <span class="span_red">MAXON</span> занимается полным циклом работ
+              : от покупки домена до готового<br />
+              продающего сайта.
+              <span class="span_red">ВНИМАНИЕ !</span> Следующие виды работ
+              обрекают Вас на успех :
+            </p>
+            <ul class="list">
+              <li>Landing Page</li>
+              <li>Интернет-магазин</li>
+              <li>Промо-сайт</li>
+              <li>Личный блог</li>
+              <li>Разработка айдентики</li>
+              <li>Дизайн логотипов</li>
+              <li>Настройки/доработки/внесение правок</li>
+            </ul>
+            <p>
+              Не нашли необходимую услугу из этого списка или не знаете какой
+              сайт нужен именно Вам?<br />- Мы Вам с радостью подскажем !
+            </p>
+            <a href="#" class="hover-border__effect mt-30">
+              <span>Бесплатная консультация</span>
+            </a>
+          </div>
+        </div>
+        <!--Infinite slider-->
+        <div class="abous-us__slider_endless">
+          <div class="slider__item">
+            <img src="img/endless-carousel/01.png" alt="Сайт такси" />
+          </div>
+          <div class="slider__item">
+            <img src="img/endless-carousel/02.png" alt="Сайт каннабис" />
+          </div>
+          <div class="slider__item">
+            <img src="img/endless-carousel/03.png" alt="Сайт мебель" />
+          </div>
+          <div class="slider__item">
+            <img src="img/endless-carousel/04.png" alt="Сайт строительство" />
+          </div>
+          <div class="slider__item">
+            <img src="img/endless-carousel/05.png" alt="Сайт ресторан" />
+          </div>
+          <div class="slider__item">
+            <img src="img/endless-carousel/06.png" alt="Сайт одежда" />
+          </div>
+          <div class="slider__item">
+            <img src="img/endless-carousel/07.png" alt="Сайт конференция" />
+          </div>
+          <div class="slider__item">
+            <img src="img/endless-carousel/08.png" alt="Сайт путешествия" />
+          </div>
+          <div class="slider__item">
+            <img src="img/endless-carousel/08.png" alt="Сайт путешествия" />
+          </div>
+        </div>
+        <!--  <h3>ВНИМАНИЕ! Заказывая сайт у нас - Вы рискуете стать успешным!</h3>-->
+      </section>
+      <!--Portfolio-->
+      <section class="portfolio__area">
+        <h2>Недавние <span class="span_red">работы</span></h2>
+        <svg class="hidden">
+          <symbol id="icon-arrow" viewBox="0 0 24 24">
+            <title>arrow</title>
+            <polygon
+              points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "
+            />
+          </symbol>
+          <symbol id="icon-drop" viewBox="0 0 24 24">
+            <title>drop</title>
+            <path
+              d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"
+            />
+            <path
+              d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"
+            />
+          </symbol>
+          <symbol id="icon-longarrow" viewBox="0 0 54 24">
+            <title>longarrow</title>
+            <path
+              d="M.42 11.158L12.38.256c.333-.27.696-.322 1.09-.155.395.166.593.467.593.903v6.977h38.87c.29 0 .53.093.716.28.187.187.28.426.28.716v5.98c0 .29-.093.53-.28.716a.971.971 0 0 1-.716.28h-38.87v6.977c0 .416-.199.717-.592.903-.395.167-.759.104-1.09-.186L.42 12.62a1.018 1.018 0 0 1 0-1.462z"
+            />
+          </symbol>
+          <symbol id="icon-navarrow" viewBox="0 0 408 408">
+            <title>navarrow</title>
+            <polygon
+              fill="#fff"
+              fill-rule="nonzero"
+              points="204 0 168.3 35.7 311.1 178.5 0 178.5 0 229.5 311.1 229.5 168.3 372.3 204 408 408 204"
+            ></polygon>
+          </symbol>
+        </svg>
+        <div class="portfolioshow">
+          <div class="portfolioshow__deco"></div>
+          <div class="portfolio">
+            <div class="portfolio__img-wrap cursor-large">
+              <div
+                class="portfolio__img"
+                style="background-image: url(img/portfolio/01.jpg)"
+              ></div>
+            </div>
+            <div class="portfolio__side">Воспоминания &amp; Фото</div>
+            <div class="portfolio__title-wrap">
+              <span class="portfolio__number">1</span>
+              <h3 class="portfolio__title">Анимация</h3>
+              <h4 class="portfolio__subtitle">
+                Узнайте больше информации нажмите на изображение чтобы увидеть
+                эффект.
+              </h4>
+            </div>
+          </div>
+          <div class="portfolio">
+            <div class="portfolio__img-wrap cursor-large">
+              <div
+                class="portfolio__img"
+                style="background-image: url(img/portfolio/02.png)"
+              ></div>
+            </div>
+            <div class="portfolio__side">Интересные проекты</div>
+            <div class="portfolio__title-wrap">
+              <span class="portfolio__number">2</span>
+              <h3 class="portfolio__title">Воспоминания</h3>
+              <h4 class="portfolio__subtitle">
+                Узнайте больше информации нажмите на изображение чтобы увидеть
+                эффект.
+              </h4>
+            </div>
+          </div>
+          <div class="portfolio">
+            <div class="portfolio__img-wrap cursor-large">
+              <div
+                class="portfolio__img"
+                style="background-image: url(img/portfolio/03.jpg)"
+              ></div>
+            </div>
+            <div class="portfolio__side">Абстракция</div>
+            <div class="portfolio__title-wrap">
+              <span class="portfolio__number">3</span>
+              <h3 class="portfolio__title">Абстракция</h3>
+              <h4 class="portfolio__subtitle">
+                Узнайте больше информации нажмите на изображение чтобы увидеть
+                эффект.
+              </h4>
+            </div>
+          </div>
+          <div class="portfolio">
+            <div class="portfolio__img-wrap cursor-large">
+              <div
+                class="portfolio__img"
+                style="background-image: url(img/portfolio/04.png)"
+              ></div>
+            </div>
+            <div class="portfolio__side">Креативные подарки</div>
+            <div class="portfolio__title-wrap">
+              <span class="portfolio__number">4</span>
+              <h3 class="portfolio__title">Подарки</h3>
+              <h4 class="portfolio__subtitle">
+                Узнайте больше информации нажмите на изображение чтобы увидеть
+                эффект.
+              </h4>
+            </div>
+          </div>
+          <div class="portfolio">
+            <div class="portfolio__img-wrap cursor-large">
+              <div
+                class="portfolio__img"
+                style="background-image: url(img/5.jpg)"
+              ></div>
+            </div>
+            <div class="portfolio__side">Интересно</div>
+            <div class="portfolio__title-wrap">
+              <span class="portfolio__number">5</span>
+              <h3 class="portfolio__title">Фото</h3>
+              <h4 class="portfolio__subtitle">
+                Узнайте больше информации нажмите на изображение чтобы увидеть
+                эффект.
+              </h4>
+            </div>
+          </div>
+          <div class="portfolio">
+            <div class="portfolio__img-wrap cursor-large">
+              <div
+                class="portfolio__img"
+                style="background-image: url(img/6.jpg)"
+              ></div>
+            </div>
+            <div class="portfolio__side">Hopes &amp; Dreams</div>
+            <div class="portfolio__title-wrap">
+              <span class="portfolio__number">6</span>
+              <h3 class="portfolio__title">Фокус</h3>
+              <h4 class="portfolio__subtitle">
+                Узнайте больше информации нажмите на изображение чтобы увидеть
+                эффект.
+              </h4>
+            </div>
+          </div>
+          <button
+            class="nav nav--prev"
+            aria-label="Navigation for previous slide"
+          >
+            <svg class="icon icon--navarrow-prev">
+              <use xlink:href="#icon-navarrow"></use>
+            </svg>
+          </button>
+          <button class="nav nav--next" aria-label="Navigation for next slide">
+            <svg class="icon icon--navarrow-next">
+              <use xlink:href="#icon-navarrow"></use>
+            </svg>
+          </button>
+          <div class="content">
+            <div class="content__item">
+              <span class="content__number">1</span>
+              <h3 class="content__title">Анимация</h3>
+              <h4 class="content__subtitle">
+                Каждый слайдер создать быть уникальным и интересным
+              </h4>
+              <div class="content__text">
+                Узнайте больше информации нажмите на изображение чтобы увидеть
+                эффект.
+              </div>
+            </div>
+            <div class="content__item">
+              <span class="content__number">2</span>
+              <h3 class="content__title">Воспоминания</h3>
+              <h4 class="content__subtitle">
+                Небольшие воспоминания из нашей жизни
+              </h4>
+              <div class="content__text">
+                Узнайте больше информации нажмите на изображение чтобы увидеть
+                эффект.
+              </div>
+            </div>
+            <div class="content__item">
+              <span class="content__number">3</span>
+              <h3 class="content__title">Вдохновение</h3>
+              <h4 class="content__subtitle">
+                Все, что вдохновляло нас эти годы
+              </h4>
+              <div class="content__text">
+                Узнайте больше информации нажмите на изображение чтобы увидеть
+                эффект.
+              </div>
+            </div>
+            <div class="content__item">
+              <span class="content__number">4</span>
+              <h3 class="content__title">Карта</h3>
+              <h4 class="content__subtitle">
+                Мы были в разных местах всего мира
+              </h4>
+              <div class="content__text">
+                Узнайте больше информации нажмите на изображение чтобы увидеть
+                эффект.
+              </div>
+            </div>
+            <div class="content__item">
+              <span class="content__number">5</span>
+              <h3 class="content__title">Еда</h3>
+              <h4 class="content__subtitle">
+                Мы научились готовить вкусные блюда
+              </h4>
+              <div class="content__text">
+                Узнайте больше информации нажмите на изображение чтобы увидеть
+                эффект.
+              </div>
+            </div>
+            <div class="content__item">
+              <span class="content__number">6</span>
+              <h3 class="content__title">Фокус</h3>
+              <h4 class="content__subtitle">
+                Мы сделали больше пяти тысяч фотографий
+              </h4>
+              <div class="content__text">
+                Узнайте больше информации нажмите на изображение чтобы увидеть
+                эффект.
+              </div>
+            </div>
+            <button class="content__close cursor-large" aria-label="Close">
+              <svg class="icon icon--longarrow">
+                <use xlink:href="#icon-longarrow"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!--Map-->
+      <section class="map">
+        <div class="wrapper flex__row">
+          <article class="article_left">
+            <h3>Как <span class="span_red">далеко</span> мы зашли</h3>
+            <p>
+              Благодаря клиентам из разных частей мира, мы уже "посетили" более
+              10 стран.<br />Расстояние от нашего Киевского офиса до "самого
+              дальнего" клиента становит более 12 000 км!
+            </p>
+          </article>
+          <article class="article_right">
+            <img
+              src="img/map3.png"
+              alt="Карта мира без фона красная"
+              loading="lazy"
+            />
+          </article>
+        </div>
+        <div class="wrapper">
+          <h3 class="text_center">
+            Для кого мы <span class="span_red">трудились</span>
+          </h3>
+          <div class="brand__table">
+            <div class="table__row">
+              <img src="img/logo/main_logo_new.png" alt="" />
+              <img src="img/logo/main_logo_new.png" alt="" />
+              <img src="img/logo/main_logo_new.png" alt="" />
+            </div>
+            <div class="table__row">
+              <img src="img/logo/main_logo_new.png" alt="" />
+              <img src="img/logo/main_logo_new.png" alt="" />
+              <img src="img/logo/main_logo_new.png" alt="" />
+            </div>
+            <div class="table__row">
+              <img src="img/logo/main_logo_new.png" alt="" />
+              <img src="img/logo/main_logo_new.png" alt="" />
+              <div class="position__center-center cursor-large">
+                <h4 class="text_center">
+                  Тут может быть <span class="span_red">Ваш </span> логотип
+                </h4>
+                <a
+                  href="#"
+                  class="hover-border__effect text_center cursor-large"
+                >
+                  <span>Стать клиентом</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Pricing tables-->
+      <section class="pricing">
+        <div class="item_prev">
+          <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="item_next">
+          <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="wrapper">
+          <h2>Наши <span class="span_red">тарифы</span></h2>
+
+          <div class="pricing__slider">
+            <div class="rotate__y">
+              <div class="slider__item">
+                <div class="item__header">
+                  <p>Базовый</p>
+                </div>
+                <div class="item__price">
+                  <p>От 250$</p>
+                </div>
+                <div class="item__list">
+                  <ul>
+                    <li>
+                      <h5><i class="fas fa-check"></i>Landing Page</h5>
+                    </li>
+                    <li>
+                      <h5><i class="fas fa-check"></i>CMS WordPress / Tilda</h5>
+                    </li>
+                    <li>
+                      <h5>
+                        <i class="fas fa-check"></i>Обеспечение адаптивности
+                      </h5>
+                    </li>
+                    <li>
+                      <h5><i class="fas fa-check"></i>Форма обратной связи</h5>
+                    </li>
+                    <li>
+                      <h5><i class="fas fa-check"></i>Слайдер изображений</h5>
+                    </li>
+                    <li>
+                      <h5>
+                        <i class="fas fa-check"></i>Срок выполнения: 3-7 дней
+                      </h5>
+                    </li>
+                    <li>
+                      <h5>
+                        <i class="fas fa-check"></i>Техническая поддержка 14
+                        дней
+                      </h5>
+                    </li>
+                  </ul>
+                </div>
+                <button class="btn_round-red btn" aria-label="Choose rate">
+                  <a href="#">Заказать</a>
+                </button>
+              </div>
+            </div>
+            <div class="rotate__y">
+              <div class="slider__item box-shadow_convex">
+                <div class="item__header">
+                  <p>Продвинутый</p>
+                </div>
+                <div class="item__price">
+                  <p>От 500$</p>
+                </div>
+                <div class="item__list">
+                  <ul>
+                    <li>
+                      <h5><i class="fas fa-check"></i>Тариф "Базовый"</h5>
+                    </li>
+                    <li>
+                      <h5><i class="fas fa-check"></i>До 5 страниц</h5>
+                    </li>
+                    <li>
+                      <h5><i class="fas fa-check"></i>Модули онлайн-оплаты</h5>
+                    </li>
+                    <li>
+                      <h5><i class="fas fa-check"></i>Wordpress оптимизация</h5>
+                    </li>
+                    <li>
+                      <h5>
+                        <i class="fas fa-check"></i>Наполнение Вашим контентом
+                      </h5>
+                    </li>
+                    <li>
+                      <h5>
+                        <i class="fas fa-check"></i>Срок выполнения: 7-14 дней
+                      </h5>
+                    </li>
+                    <li>
+                      <h5>
+                        <i class="fas fa-check"></i>Техническая поддержка 30
+                        дней
+                      </h5>
+                    </li>
+                  </ul>
+                </div>
+                <button class="btn_round-red btn" aria-label="Choose rate">
+                  <a href="#">Заказать</a>
+                </button>
+              </div>
+            </div>
+            <div class="rotate__y">
+              <div class="slider__item">
+                <div class="item__header">
+                  <p>Профессиональный</p>
+                </div>
+                <div class="item__price">
+                  <p>От 700$</p>
+                </div>
+                <div class="item__list">
+                  <ul>
+                    <li>
+                      <h5><i class="fas fa-check"></i>Тариф "Продвинутый"</h5>
+                    </li>
+                    <li>
+                      <h5><i class="fas fa-check"></i>От 10 страниц</h5>
+                    </li>
+                    <li>
+                      <h5>
+                        <i class="fas fa-check"></i>Модуль интернет-магазина
+                      </h5>
+                    </li>
+                    <li>
+                      <h5><i class="fas fa-check"></i>Мультиязычный сайт</h5>
+                    </li>
+                    <li>
+                      <h5>
+                        <i class="fas fa-check"></i>Дизайн брендового логотипа
+                      </h5>
+                    </li>
+                    <li>
+                      <h5>
+                        <i class="fas fa-check"></i>Срок выполнения: до 30 дней
+                      </h5>
+                    </li>
+                    <li>
+                      <h5>
+                        <i class="fas fa-check"></i>Техническая поддержка 3
+                        месяца
+                      </h5>
+                    </li>
+                  </ul>
+                </div>
+                <button class="btn_round-red btn" aria-label="Choose rate">
+                  <a href="#">Заказать</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <p class="footnote">
+            * Цены на разработку сайта варьируются в зависимости от необходимого
+            функционала, наполнения и дизайна. Мы всегда готовы обсудить с вами
+            индивидуальные условия
+          </p>
+        </div>
+      </section>
+    </main>
+    <!--Footer Area-->
+    <footer class="footer">
+      <div class="bg-overlay_black"></div>
+      <div class="wrapper">
+        <div class="copyright">
+          <p>© Copyright 2021 MAXON Creative Agency</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/149c2422b1.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Cursor settings-->
+    <script src="js/main.js"></script>
+    <!--Slick Slider-->
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="//code.jivosite.com/widget/Ac1peEgQVX" async></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/charming.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/demo.js"></script>
+  </body>
+</html>
