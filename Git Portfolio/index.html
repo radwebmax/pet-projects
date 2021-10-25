@@ -64,10 +64,9 @@
       url: "https://api.github.com/users/radwebmax/repos",
       dataType: "json",
       success: function(result) {
-          console.log(result);
           for(var i in result ) {
               $("#work_section").append(
-                    `<a href='"${result[i].html_url}"' target='_blank'>
+                    `<a href=${result[i].html_url} target='_blank'>
                 <section>
                   <div class="section_title">${result[i].full_name.replace('radwebmax/', '')}</div>
                   <div class="about_section">
