@@ -266,8 +266,7 @@ body {
   font-weight: bold;
 }
 
-#about a:hover,
-#username a:hover {
+#about a:hover {
   text-decoration: underline;
 }
 
@@ -438,7 +437,19 @@ a.section_title{
   color: var(--bg-color);
   background: var(--text-color);
 }
-
+a.social__icon {
+    font-size: 48px;
+    display: block;
+    margin-right: 5px;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}
+.wrapper span {
+    margin-left: 30px;
+}
 @media (max-width: 800px) {
   #profile {
     width: 90vw;
@@ -468,6 +479,7 @@ a.section_title{
 
   #work {
     margin: 0px;
+    padding: 0!important;
   }
 
   .projects {
@@ -540,6 +552,19 @@ a.section_title{
 
   #blog p {
     margin: 2vh 0px;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+  .wrapper span {
+    margin-left: 0;
+  }
+  #username {
+    display: flex;
+    justify-content: space-between;
+  }
+  #about{
+    display: none;
   }
 }
 
