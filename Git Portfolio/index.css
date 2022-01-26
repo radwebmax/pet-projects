@@ -329,6 +329,15 @@ body {
   margin: 1vh 0px;
   padding: 0px 1px;
   word-wrap: break-word;
+  color: white;
+  text-decoration: none;
+}
+a.section_title{
+  margin-bottom: 10px;
+  display: block;
+}
+.section_title:hover{
+  color: rgba(255, 255, 255, 0.897);
 }
 
 .about_section {
